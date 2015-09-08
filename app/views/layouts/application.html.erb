@@ -1,0 +1,9 @@
+<% content_for :stylesheets do %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+<% end %>
+
+<% content_for :bottom_javascripts do %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<% end %>
+
+<%= render template: "layouts/the_knot/modal" %>
