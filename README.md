@@ -1,4 +1,4 @@
-# SPA-Tutorial
+# Rails-Tutorial
 1. Create a Rails Project
 
     a). Create rails project, # rails new SPA-Tutorial -B -T -f
